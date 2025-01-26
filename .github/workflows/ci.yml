@@ -28,6 +28,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: yourdockerhubusername/your-app-name:latest
+          tags: pravinpawar18/your-app-name:latest
           cache-from: type=registry,ref=yourdockerhubusername/your-app-name:cache
           cache-to: type=registry,ref=yourdockerhubusername/your-app-name:cache,mode=max
